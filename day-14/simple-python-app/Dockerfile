@@ -7,7 +7,7 @@ WORKDIR /app
 # Set Description and Tags
 
 LABEL version="1.0"
-LABEL description="This image is for python flast app
+LABEL description="This image is for python flast app"
 
 # Copy the requirements file
 COPY requirements.txt .
