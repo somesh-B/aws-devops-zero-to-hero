@@ -4,6 +4,11 @@ FROM python:3.8
 # Set the working directory inside the container
 WORKDIR /app
 
+# Set Description and Tags
+
+LABEL version="1.0"
+LABEL description="This image is for python flast app
+
 # Copy the requirements file
 COPY requirements.txt .
 
